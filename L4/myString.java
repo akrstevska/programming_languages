@@ -16,6 +16,8 @@ public class myString {
 		
 		System.out.println("Original: " + myString);
 		System.out.println("Length: " + myString.length());
+		System.out.println("In small letters: " + myString.toLowerCase());
+		System.out.println("In capital letters: " + myString.toUpperCase());
 		System.out.println("First letter: " + firstChar);
 		System.out.println("Middle letter: " + middleChar);
 		System.out.println("Last letter: " + lastChar);
