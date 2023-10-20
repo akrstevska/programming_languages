@@ -11,8 +11,8 @@ public class mathClass {
 		System.out.println("Square: " + Math.pow(n,2));
 		System.out.println("Square root: " + Math.sqrt(n));
 		System.out.println("Cube: " + Math.pow(n,3));
-		System.out.println("Largest: " + Math.ceil(n));
-		System.out.println("Smaller: " + Math.floor(n));
+		System.out.println("Smallest larger integer: " + Math.ceil(n));
+		System.out.println("Largest smaller integer: " + Math.floor(n));
 		System.out.println("Area: " + Math.pow(n,2)*Math.PI);
 		
 		System.out.println("PI: " + Math.PI);
