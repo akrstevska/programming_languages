@@ -9,10 +9,10 @@ public class stringObject {
 		char middleChar;
 		
 		if(stringLength%2 == 0) {
-			middleChar = myString.charAt((stringLength/2)-1);
+			middleChar = myString.charAt(stringLength/2);
 		}
 		else {
-			middleChar = myString.charAt(stringLength/2);
+			middleChar = myString.charAt((stringLength/2)-1);
 		}
 		int sum = firstChar+lastChar+middleChar;
 		
